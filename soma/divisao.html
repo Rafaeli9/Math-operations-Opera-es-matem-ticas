@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://kit.fontawesome.com/dadd998619.js" crossorigin="anonymous"></script>
+    <title>Divisão</title>
+</head>
+<body>  
+    <div class="container">
+        <div class="tema">
+            <p id="mudar"></p>  
+        </div>  
+        <button id="startOne" class="start" type="button" onclick="changeDivi(),mudaBtn()">Começar <i class="fas fa-play"></i></button>
+        <input type="number" class="confere" placeholder="Resposta">
+        <button id="checar" class="check" type="button" onclick="conferirDivi(),mudaBtn1()">Conferir <i class="fas fa-check"></i></button>      
+        <button id="startTwo" class="next" type="button" onclick="atualizaDivi(),mudaBtn1()">Próximo <i class="fas fa-forward"></i></button>
+        <a href="index.html"><button class="back">Voltar <i class="fas fa-home"></i></button> 
+    </div>
+   </body>
+<script src="divisao.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

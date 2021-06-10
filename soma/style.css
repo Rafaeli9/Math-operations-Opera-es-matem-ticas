@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(image/lousa3.jpg);
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  margin-top: 500px;
+  flex-wrap: wrap;
+}
+
+.tema {
+  position: absolute;
+  text-align: start;
+  font-size: 50px;
+  color: white;
+  top: 350px;
+}
+
+.start {
+  position: relative;
+  height: 100px;
+  width: 200px;
+  background-color: #42f548;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.next,
+.check {
+  position: relative;
+  height: 100px;
+  width: 200px;
+  background-color: #ee1d52;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back {
+  position: relative;
+  height: 100px;
+  width: 200px;
+  background-color: rgba(235, 223, 223, 0.685);
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.confere {
+  position: relative;
+  width: 100px;
+  height: 95px;
+  font-size: 20px;
+  padding-left: 10px;
+}
